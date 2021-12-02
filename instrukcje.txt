@@ -1,4 +1,4 @@
 git add . //dodawanie plikuów
 gir commit -m "np." //comitowanie
 git push -u orgin main// aktualizacja 
-git pull // wyciaganie z githuba
+git clone https://github.com/Wszechmogancy/tak-.git // wyciaganie z githuba
