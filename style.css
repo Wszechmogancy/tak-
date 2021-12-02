@@ -3,6 +3,9 @@ html {
     background-color: rgb(55, 56, 56);
 }
 
+
+/* index */
+
 .nazwa {
     text-align: center;
     color: white;
@@ -13,6 +16,9 @@ html {
 .sponsor {
     width: 100%;
 }
+
+
+/* menu */
 
 img {
     position: relative;
@@ -52,6 +58,9 @@ li a:hover:not(.active) {
 .active {
     background-color: #04AA6D;
 }
+
+
+/* logowanie */
 
 .logowanie {
     text-align: center;
