@@ -20,12 +20,6 @@ img {
     top: 0%;
 }
 
-.menu {}
-
-.sklep {}
-
-.produkty {}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -57,4 +51,16 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #04AA6D;
+}
+
+.logowanie {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 38%;
+    right: 0px;
+    bottom: 0px;
+    left: -134px;
+    margin: auto;
+    color: white;
 }
