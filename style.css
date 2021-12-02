@@ -10,10 +10,13 @@ html {
     font-size: 30px;
 }
 
-.sponsor,
+.sponsor {
+    width: 100%;
+}
+
 img {
     position: relative;
-    left: 12%;
+    left: 23%;
     top: 0%;
 }
 
