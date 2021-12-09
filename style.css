@@ -5,6 +5,20 @@ html {
 }
 
 
+/* text */
+
+#text {
+    text-align: center;
+    color: white;
+    font-family: 'Gluten', cursive;
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 1%;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+
 /* index */
 
 .nazwa {
@@ -25,6 +39,7 @@ html {
     left: 29%;
     top: 0%;
     width: 71%;
+    align-items: center;
 }
 
 
