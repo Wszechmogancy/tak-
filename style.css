@@ -17,17 +17,22 @@ html {
     margin-block-start: 0px;
 }
 
-.sponsor {
-    width: 100%;
+
+/* sponsor */
+
+#sponsor {
+    position: relative;
+    left: 29%;
+    top: 0%;
+    width: 71%;
 }
 
 
 /* menu */
 
-img {
-    position: relative;
-    left: 23%;
-    top: 0%;
+.svg {
+    float: left;
+    margin-top: 22%;
 }
 
 ul {
