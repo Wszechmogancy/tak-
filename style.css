@@ -4,24 +4,18 @@ html {
   margin: 0px;
 }
 
-<<<<<<< HEAD
-=======
-
 /* text */
-
 #text {
-    text-align: center;
-    color: white;
-    font-family: 'Gluten', cursive;
-    font-size: 25px;
-    margin: 0px;
-    margin-top: 1%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
+  text-align: center;
+  color: white;
+  font-family: 'Gluten', cursive;
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 1%;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
 }
 
-
->>>>>>> 61e9035f7a3ba0eb3055b2040069b9c2f2976fc7
 /* index */
 .nazwa {
   text-align: center;
@@ -31,45 +25,31 @@ html {
   margin: 0px;
   margin-block-end: 0px;
   margin-block-start: 0px;
+  width: 100%;
 }
 
-<<<<<<< HEAD
-.sponsor {
-  width: 100%;
-=======
-
 /* sponsor */
-
 #sponsor {
-    position: relative;
-    left: 29%;
-    top: 0%;
-    width: 71%;
-    align-items: center;
->>>>>>> 61e9035f7a3ba0eb3055b2040069b9c2f2976fc7
+  position: relative;
+  left: 29%;
+  top: 0%;
+  width: 71%;
+  align-items: center;
 }
 
 /* menu */
-<<<<<<< HEAD
-img {
-  position: relative;
-  left: 23%;
-  top: 0%;
-=======
-
 .svg {
-    float: left;
-    margin-top: 17%;
-    width: 19%;
-    margin-left: 4%;
+  float: left;
+  margin-top: 17%;
+  width: 19%;
+  margin-left: 4%;
 }
 
 .svg_domek {
-    float: left;
-    margin-top: 21%;
-    width: 19%;
-    margin-left: 4%;
->>>>>>> 61e9035f7a3ba0eb3055b2040069b9c2f2976fc7
+  float: left;
+  margin-top: 21%;
+  width: 19%;
+  margin-left: 4%;
 }
 
 ul {
@@ -90,19 +70,11 @@ li:last-child {
 }
 
 li a {
-<<<<<<< HEAD
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 24px 31px;
   text-decoration: none;
-=======
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 24px 31px;
-    text-decoration: none;
->>>>>>> 61e9035f7a3ba0eb3055b2040069b9c2f2976fc7
 }
 
 li a:hover:not(.active) {
