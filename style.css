@@ -201,4 +201,6 @@ input[type=text],
 /*PRODUKTY*/
 div.miejsce {
   background-color: #319598;
+  width: 100%;
+  height: 50%;
 }

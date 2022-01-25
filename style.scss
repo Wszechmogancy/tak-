@@ -1,58 +1,57 @@
         body,
-html {
-    background-color: #373838;
-    margin: 0px;
-}
-
-
-/* text */
-
-#text {
-    text-align: center;
-    color: white;
-    font-family: 'Gluten', cursive;
-    font-size: 25px;
-    margin: 0px;
-    margin-top: 1%;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-}
-
-/* index */
-
-.nazwa {
-    text-align: center;
-    color: white;
-    font-family: 'Gluten', cursive;
-    font-size: 30px;
-    margin: 0px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-
-
-    width: 100%;
-}
-    /* sponsor */
-    #sponsor {
-        position: relative;
-        left: 29%;
-        top: 0%;
-        width: 71%;
-        align-items: center;
-    }
-    /* menu */
-
+        html {
+            background-color: #373838;
+            margin: 0px;
+        }
+        /* text */
+        
+        #text {
+            text-align: center;
+            color: white;
+            font-family: 'Gluten', cursive;
+            font-size: 25px;
+            margin: 0px;
+            margin-top: 1%;
+            margin-block-end: 0px;
+            margin-block-start: 0px;
+        }
+        /* index */
+        
+        .nazwa {
+            text-align: center;
+            color: white;
+            font-family: 'Gluten', cursive;
+            font-size: 30px;
+            margin: 0px;
+            margin-block-end: 0px;
+            margin-block-start: 0px;
+            width: 100%;
+        }
+        /* sponsor */
+        
+        #sponsor {
+            position: relative;
+            left: 29%;
+            top: 0%;
+            width: 71%;
+            align-items: center;
+        }
+        /* menu */
+        
         .svg {
             float: left;
             margin-top: 17%;
             width: 19%;
             margin-left: 4%;
         }
+        
         .svg_domek {
             float: left;
             margin-top: 21%;
             width: 19%;
-            margin-left: 4%;        }
+            margin-left: 4%;
+        }
+        
         ul {
             list-style-type: none;
             margin: 0;
@@ -60,13 +59,16 @@ html {
             overflow: hidden;
             background-color: #333;
         }
+        
         li {
             float: left;
             border-right: 1px solid #bbb;
         }
+        
         li:last-child {
             border-right: none;
         }
+        
         li a {
             display: block;
             color: white;
@@ -74,13 +76,16 @@ html {
             padding: 24px 31px;
             text-decoration: none;
         }
+        
         li a:hover:not(.active) {
             background-color: #3cbabe;
         }
+        
         .active {
             background-color: #3cbabe;
         }
         /* logowanie */
+        
         .logowanie {
             text-align: center;
             display: inline-block;
@@ -95,6 +100,7 @@ html {
             font-size: 17px;
         }
         /*KONTAKT*/
+        
         .kontakt {
             text-align: center;
             display: inline-block;
@@ -108,6 +114,7 @@ html {
             font-family: 'Gluten', cursive;
             font-size: 17px;
         }
+        
         input[type=text],
         [type=pasword] {
             width: 20%;
@@ -119,11 +126,13 @@ html {
             transition: 0.5s;
             outline: none;
         }
+        
         input[type=text],
         [type=pasword]:focus {
             border: 3px solid #555;
         }
         /* przycisk loogowania*/
+        
         .wrapper {
             display: block;
             position: absolute;
@@ -131,6 +140,7 @@ html {
             left: 50%;
             transform: translate(-50%, -50%);
         }
+        
         .button {
             text-decoration: none;
             text-align: center;
@@ -145,6 +155,7 @@ html {
             font-weight: 600;
             overflow: hidden;
         }
+        
         .button:before {
             content: "";
             background-color: rgba(255, 255, 255, 0.5);
@@ -157,32 +168,39 @@ html {
             transform: skewX(-45deg) translateX(0px);
             transition: none;
         }
+        
         .button:hover {
             background-color: #3cbabe;
             color: #ffffff;
             border-bottom: 2px solid #319598;
         }
+        
         .button:hover:before {
             transform: skewX(-45deg) translateX(250px);
             transition: all 0.4s ease-in;
         }
         /*SKLEP*/
+        
         .sklep {
             background-color: #319598;
             margin-top: 6%;
             margin-left: 3%;
             margin-right: 6%;
         }
+        
         .sklep img {
             width: auto;
         }
+        
         .cos {
             margin-left: 11px;
             margin-right: 10px;
             background-color: #bbb;
         }
         /*PRODUKTY*/
-        div.miejsce{
+        
+        div.miejsce {
             background-color: #319598;
-            
+            width: 100%;
+            height: 50%;
         }
